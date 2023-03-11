@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc4fbd28-3f91-4ecf-84f1-cfdec68ee4d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/MovieItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/MoviesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/repository/MoviesRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/MovieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/MovieManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/MoviesList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/MovieManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/MovieManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_directory_selection": "C:/Users/vesnu/Desktop/Sergey/IntelliJ IDEA/PosterManager/src/main/java/ru/netology",
+    "last_directory_selection": "C:/Users/vesnu/Desktop/Sergey/IntelliJ IDEA/MovieManager/src/main/java/ru/netology",
     "last_opened_file_path": "C:/Users/vesnu/Desktop/Sergey/IntelliJ IDEA/radioman"
   }
 }]]></component>
@@ -60,6 +67,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.netology.repository" />
       <recent name="ru.netology" />
     </key>
   </component>
@@ -70,7 +78,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MovieManagerTest">
+  <component name="RunManager" selected="JUnit.MoviesRepositoryTest">
     <configuration name="MovieManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MovieManager" />
       <extension name="coverage">
@@ -86,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieManagerTest.addPosterForOneFilm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieManagerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MovieManager" />
       <extension name="coverage">
         <pattern>
@@ -96,13 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.MovieManagerTest" />
-      <option name="METHOD_NAME" value="addPosterForOneFilm" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieManagerTest.addPosterWithoutFilm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieManagerTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MovieManager" />
       <extension name="coverage">
         <pattern>
@@ -112,39 +120,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.MovieManagerTest" />
-      <option name="METHOD_NAME" value="addPosterWithoutFilm" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieManagerTest.showNineFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoviesRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MovieManager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
+          <option name="PATTERN" value="ru.netology.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.MovieManagerTest" />
-      <option name="METHOD_NAME" value="showNineFilms" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ru.netology.repository" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.repository.MoviesRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieManagerTest.showTenFilmsOverLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoviesRepositoryTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MovieManager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.*" />
+          <option name="PATTERN" value="ru.netology.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.netology" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.MovieManagerTest" />
-      <option name="METHOD_NAME" value="showTenFilmsOverLimit" />
+      <option name="PACKAGE_NAME" value="ru.netology.repository" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.repository.MoviesRepositoryTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoviesRepositoryTest" />
         <item itemvalue="JUnit.MovieManagerTest" />
-        <item itemvalue="JUnit.MovieManagerTest.showTenFilmsOverLimit" />
-        <item itemvalue="JUnit.MovieManagerTest.showNineFilms" />
-        <item itemvalue="JUnit.MovieManagerTest.addPosterForOneFilm" />
-        <item itemvalue="JUnit.MovieManagerTest.addPosterWithoutFilm" />
+        <item itemvalue="JUnit.MovieManagerTest.test2" />
+        <item itemvalue="JUnit.MovieManagerTest.test" />
+        <item itemvalue="JUnit.MoviesRepositoryTest.test2" />
       </list>
     </recent_temporary>
   </component>
